@@ -48,7 +48,7 @@ hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
 navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
 
 // ===== TYPED TEXT =====
-const words = ['Product Manager', 'Problem Solver', 'User Advocate', 'Strategy Thinker'];
+const words = ['Front End Developer', 'UI Builder', 'Web Designer', 'Creative Coder'];
 let wi = 0, ci = 0, deleting = false;
 const typedEl = document.getElementById('typed');
 function type() {
